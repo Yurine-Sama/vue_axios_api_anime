@@ -21,11 +21,14 @@ export default {
       animelist: {}
     };
   },
-
   mounted() {
     axios({
       method: "GET",
-      url: "https://jikan1.p.rapidapi.com/top/anime/1/upcoming"
+      url: "https://jikan1.p.rapidapi.com/top/anime/1/upcoming",
+      headers: {
+        "x-rapidapi-key": "d070d378bbmshc8f19ecd0f7796dp11cf3djsn60b74ee1cda7",
+        "x-rapidapi-host": "jikan1.p.rapidapi.com"
+      }
     }).then(result => {
       this.animelist = result.data;
     });

@@ -1,7 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav"><router-link to="/">Home</router-link> |</div>
-    <router-view />
+    <b-navbar toggleable="lg" type="dark" variant="danger">
+      <img
+        src="https://i.redd.it/vvuxyi4qadf41.jpg"
+        alt="อามิยะกำหมัดแล้วน้าาา"
+        width="80px"
+        height="75px"
+      />
+      <h1 style="color: white;">ANIME</h1>
+    </b-navbar>
+    <router-view style="margin-top: 30px" />
   </div>
 </template>
 

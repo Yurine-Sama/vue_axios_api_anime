@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container fluid>
     <b-row>
       <b-col cols="3" v-for="anime in animelist.top" :key="anime">
         <Card :title="anime.title" :image="anime.image_url" />

@@ -1,6 +1,13 @@
 <template>
   <div class="card">
-    <b-card :img-src="image" img-alt="Card image" img-top class="my-1">
+    <b-card
+      :img-src="image"
+      img-alt="Card image"
+      img-height="450"
+      img-width="100"
+      img-top
+      class="my-1"
+    >
       <b-card-text>
         {{ title }}
       </b-card-text>

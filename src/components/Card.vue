@@ -1,12 +1,12 @@
 <template>
-  <div class="card">
+  <div class="card bg-warning text-center">
     <b-card
+      style="color:Salmon"
       :img-src="image"
       img-alt="Card image"
-      img-height="450"
-      img-width="100"
+      img-height="550px"
+      img-width="250px"
       img-top
-      class="my-1"
     >
       <b-card-text>
         {{ title }}

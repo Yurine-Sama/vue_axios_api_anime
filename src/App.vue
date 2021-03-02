@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <b-navbar toggleable="lg" type="dark" variant="warning">
+    <b-navbar toggleable="lg" type="dark" variant="dark">
       <h1>Boko no <strong style="color: #ff5733">Anime!!</strong></h1>
       <img
         src="https://i.redd.it/vvuxyi4qadf41.jpg"
@@ -15,7 +15,7 @@
 
 <style>
 h1 {
-  color: #581845;
+  color: #008080;
   font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
